@@ -4,15 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
+    <style>
+        table{
+            /* border: none; */
+            text-align: center;
+            border: 1px solid pink;
+            border-collapse: collapse;
+            height: 320px;
+            width: 650px;
+        }
+        .tableclass{
+            margin: 0 auto;
+            
+        }
+        tr:nth-child(2n-1) {
+            background-color: gray;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: yellow;
+            color: black;
+        }
+        th{
+            background-color: cadetblue;
+        }
+    </style>
 </head>
 <body>
-    <table border="1">
+    <table border="1" class="tableclass">
         <tr>
+            <th>SL</th>
             <th>Name</th>
             <th>Id</th>
-            <th>Main</th>
+            <th>Email</th>
         </tr>
-
+        <tr>
+            <td>1</td>
+            <td>Mahmudul Hasan Molla</td>
+            <td>221902172</td>
+            <td>mhmahmudul1211@gmail.com</td>
+        </tr>
+       
+        <tr>
+            <td>2</td>
+            <td>Md Atikur Rahman</td>
+            <td>221902166</td>
+            <td>mdatikur@gmail.com</td>
+        </tr>
+       
+        <tr>
+            <td>3</td>
+            <td>Rakibul Alam </td>
+            <td>221902117</td>
+            <td>rakibulalam@gmail.com</td>
+        </tr>
+       
+        <tr>
+            <td>3</td>
+            <td>Md sabbir hossain</td>
+            <td>221902116</td>
+            <td>sabbir@gmail.com</td>
+        </tr>
+       
+        <tr>
+            <td>4</td>
+            <td>Israil fakir</td>
+            <td>221902125</td>
+            <td>fakir@gmail.com</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Md Masum Hossain</td>
+            <td>221902165</td>
+            <td>masum@gmail.com</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Md Asif samrat</td>
+            <td>221902120</td>
+            <td>samratasif@gmail.com</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Imran munshi</td>
+            <td>221902125</td>
+            <td>mdimralmunshi@gmail.com</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Md Arafat Isam</td>
+            <td>221902199</td>
+            <td>arafatislamshopnil@gmail.com</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Shakib Al Hasan</td>
+            <td>221902175</td>
+            <td>shakib75@gmail.com</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Md Sueab Admed</td>
+            <td>22190275</td>
+            <td>mdsueab@gmail.com</td>
+        </tr>
     </table>
 </body>
 </html>
